@@ -3,7 +3,7 @@ class DynamicMockData {
     return List.generate(size, (index){
       return {
         'title':'标题${index+(page-1)*size+1}:这是一个列表标题，最多两行，多出部分将会被截取',
-        'imageUrl':"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq6_irvtrL7374-mW6_a1f_ly9RuuMpPRV0w&usqp=CAU",
+        'imageUrl':"https://img0.baidu.com/it/u=3021883569,1259262591&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1693501200&t=af327262091e247f386e3ddd0f484e16",
         'viewCount':180
       };
     });

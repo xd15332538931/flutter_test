@@ -68,14 +68,15 @@ class DynamicItem extends StatelessWidget {
     return SizedBox(
       width: 150,
       height: ITEM_HEIGHT,
-      // child: Image.network(
-      //   imageUrl,
-      //   errorBuilder: (context, error, stackTrace) {
-      //   return Image.asset('assets/static/images/cat.png');
-      // },
-      // ),
-      child: Image.asset('assets/static/images/cat.png'),
+      child: Image.network(
+        imageUrl,
+      ),
     );
+    // return Container(
+    //   width: 150,
+    //   height:  ITEM_HEIGHT,
+    //   child: Image.network(imageUrl),
+    // );
   }
 
 
